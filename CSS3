@@ -1,0 +1,12 @@
+CSS3 = Hojas de estilo en cascada
+	* maquetación, bonita, maquillaje
+CONTENIDO: 
+	selectores
+		* pseudoelementos
+			atributo: valor;
+		* etiquetas
+			atributo: valor;
+		* identificadores
+			atributo: valor;
+		* clases
+			atributo: valor;
