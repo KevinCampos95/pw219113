@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<title> Práctica 01 HTML5+CSS3</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	</head>
 	<body>
 		<header>
-			<img src="img/resplandor.png">
-			<img src="img/logo.png">
+			<img src="img/resplandor.png" alt="">
+			<img src="img/logo.png" alt="" id="logo" name="logo"> <!--ID y NAME pueden ir juntos si se pone el mismo nombre -->
 			<nav>
 				<ul>
 					<li>Inicio</li>
@@ -23,16 +24,16 @@
 				<input type="button" value="buscar">
 			</form>
 		</header>
-		<section>
+		<section id="seccion01">
 			<article>
 				<img src="img/slide2.jpg" alt="">
 			</article>
 		</section>
-		<section>
+		<section id="seccion02">
 			<article>
 				<img src="img/separador.jpg" alt="">
 				<br>
-				Una sección
+				<span class="unaSeccion">Una sección</span> <!-- Class le puede dar formato a muchos elementos y ID solo sirve para un elemento porque no se puede repetir -->
 				<br>
 				<h1>No, motherfucker</h1>
 				<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee. </p>
@@ -44,7 +45,7 @@
 			<article>
 				<img src="img/separador.jpg" alt="">
 				<br>
-				Otra sección
+				<span class="unaSeccion">Otra sección</span>
 				<br>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -54,9 +55,9 @@
 				<input type="submit" value="Ver más">
 			</article>
 			<article>
-				<img src="img/sepador.jpg" alt="">
+				<img src="img/separador.jpg" alt="">
 				<br>
-				Un vídeo
+				<span class="unaSeccion">Un vídeo</span>
 				<br>
 				<img src="img/video.jpg" alt="">
 			</article>
