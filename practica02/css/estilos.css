@@ -22,6 +22,11 @@ header nav ul li{
 	margin-right: 20px;
 	padding-bottom: 2px;
 }
+footer{
+	background: #4267B3;
+	color: white;
+	border-top: lightgray solid 5px;
+}
 #bgoffer{
 	position: relative;
 	top: -406px;
@@ -30,6 +35,9 @@ header nav ul li{
 #granthams{
 	margin-left: 25px;
 	margin-top: 25px;
+}
+#foo01{
+	background-color: blue;
 }
 #paint{
 	float: right;
@@ -58,18 +66,45 @@ header nav ul li{
 	content: "• ";
 	color: #FF9099;
 }
+#secc03art04 {
+	padding-top: 40px; /*No se usa margin porque con en dispositivos moviles se ve feo */
+}
 #segundaSeccion article{
 	margin-right: 165px;
 	text-align: right;
 }
+#terceraSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+#terceraSeccion article input{
+	border-radius: 5px;
+}
+#terceraSeccion article input[type="button"]{
+	background: #8BC500;
+	color: white;
+}
+.colorAzul{
+	color: #4267B3;
+}
 .colorRosa{
 	color: #FF0099;
+}
+.colorVerde{
+	color: #8BC500;
 }
 .letraGrande{
 	font-size: 3.5em;	
 }
 .letraMediana{
 	font-size: 2em;
+}
+.letraPequena{
+	font-size: .8em
 }
 .nito{
 	font-weight: bold;
