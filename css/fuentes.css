@@ -1,0 +1,10 @@
+@font-face{
+	font-family: Josefin_Sans;
+	src:url("Josefin_Sans/JosefinSans-LightItalic.ttf");
+}
+#textoReferenciado{
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+#textoDescargado{
+	font-family: Josefin_Sans,sans-serif;
+}
