@@ -1,0 +1,137 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	max-width: 1024px;
+}
+#secc01 article{
+	display: inline-block;
+	vertical-align: top;
+}
+#secc01 input{
+	border-radius: 25px;
+	font-family: 'Archivo Black', sans-serif;
+	padding: 8px 16px;
+	position: relative;
+}
+#secc01art01{
+	background: #f1efef;
+	height: 259px;
+	padding-left: 20px;
+	padding-right: 30px;
+	text-align: center;
+	width: 45%;
+}
+#secc01art01 article{
+	display: inline-block;
+	margin-bottom: -4px;
+	vertical-align: top;
+	width: 48%
+}
+#secc01art01art01 img{
+	width: 60%;
+}
+#secc01art01art02 input{
+	background-color: #f1efef;
+	border-color: black;	
+}
+#secc01art01art02{
+	margin-left: -25px;
+	margin-top: 70px;
+}
+#secc01art02{
+	background-color: #606060;
+	height: 250px;
+	margin-left: -4px;
+	padding-top: 9px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	width: 35%
+}
+#secc01art02 input{
+	background-color: #606060;
+	border-color: white;
+	color: white;
+}
+#secc01art03{
+	background-color: #55aced;
+	text-align: center;
+	padding-left: 20px;
+	width: 30%;
+}
+#secc01art03 article{
+	display: inline-block;
+	height: 100px;
+	vertical-align: top;
+}
+#secc01art03art01{
+	width: 30%;
+}
+#secc01art03art01 img{
+	position: relative;
+	top: 30px;
+	width: 30%;
+}
+#secc01art03art02{
+	color: white;
+	padding-top: 20px;
+	width: 60%;
+}
+#secc01art04{
+	background-color: #d1dccf;
+	height: 100px;
+	margin-left: -4px;
+	padding-left: 25px;
+	padding-top: 20px;
+	text-align: center;
+	width: 20%;
+}
+#secc01art04 input{
+	background-color: #d1dccf;
+	border-color: black;
+	color: black;
+}
+#secc01art05{
+	background-color: #787777;
+	height: 100px;
+	margin-left: -4px;
+	padding-bottom: 20px;
+	padding-right: 4px;
+	text-align: center;
+	width: 36%;
+}
+#secc01art05 input{
+	background-color: #787777;
+	border-color: white;
+	color: white;
+}
+#texto01art01{
+	font-family: 'Open Sans', sans-serif;
+}
+#texto01art02{
+	font-family: 'Open Sans', sans-serif;
+}
+#texto01art04{
+	font-family: 'Lato', sans-serif;
+}
+#texto01art05{
+	font-family: 'Lato', sans-serif;
+}
+#tituloArt01{
+	font-family: 'Libre Baskerville', serif;
+}
+#tituloArt02{
+	font-family: 'Libre Baskerville', serif;
+}
+.letraBlanca{
+	color: white;
+}
+.letraGrande{
+	font-size: 1.5em;
+}
+.letraMediana{
+	font-size: .7em;
+}
+.nito{
+	font-weight: bold;	
+}
