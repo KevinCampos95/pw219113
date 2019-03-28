@@ -1,0 +1,64 @@
+img[alt]{
+	border: 5px solid blue;
+}
+img[src="img/ejemplos.png"]{
+	width: 400px
+}
+img[src^="img/"]{
+	width: 150px;
+}
+img[src$="png"]{
+	width: 250px;
+}
+img[src*="mg/"]{
+	width: 1000px;
+}
+/* Equivalente a .resaltado */
+article[class~="resaltado"]{
+	border: 1px dashed blue;
+}
+/* Equivalente a .ingles */
+article[class~="ingles"]{
+	border: 1px dashed red;
+}
+/* Equivalente a .archivo */
+article[class~="archivo"]{
+	border: 1px dashed green;
+}
+article[class|="ingles"]{
+	text-align: center;
+}
+div > p{
+	color: blue;
+}
+div	p{
+	color: red;
+}
+h2 + p{
+	color: gray;
+}
+h2 ~ p{
+	color: green;
+}
+#resumen, #experimento, #pruebas, #resultados, #conclusiones{
+	color: red;
+}
+section:not(#referencias){
+	color: blue;
+}
+li:nth-child(odd){ /* solo selecciona elementos impares*/
+	color: green;
+}
+li:nth-child(even){ /* solo selecciona elementos pares*/
+	color: blue;
+}
+li:nth-child(5){ /* solo selecciona el quinto elemento*/
+	color: red;
+}
+li:nth-last-child(2){ /* solo selecciona el 9no elemento (el 2do de arriba para abajo)*/
+	color: purple;
+}
+p:first-line{
+	color: red;
+	font-weight: bold;
+}
