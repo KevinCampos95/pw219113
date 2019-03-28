@@ -1,0 +1,18 @@
+JavaScript: Web - Interpretado
+	Si es un lenguaje de programación 
+	* Para que sirve?
+	 - Para interacción con el usuario
+	 - Manipulacion del DOM (Document Object Model)
+	* Qué comparte con Java?
+	 - La Sintáxis 
+	 - Punto y coma opcional (de preferencia usarlo)
+	*Cubrir:
+	 - Interacción
+	 - Arratrar y soltar
+	 - Webworkers 
+	 - Almacenamiento Local y Session
+	 - Notificaciones
+	 - Geolocalización
+	 - Paquetes NPM (Node)
+	 - Vue.js - Node - Mongo CRUD (altas,bajas,etc)
+	
