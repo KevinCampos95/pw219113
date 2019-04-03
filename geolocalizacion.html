@@ -38,9 +38,9 @@
 			}
 			function localizacion(){
 				// Si el navegador lo soporta
-				if(navigator.geolocalizacion){
+				if(navigator.geolocation){
 					// Callback : funcion que recibe como parámetros otras funciones mutuamente excluyentes
-					navigator.geolocalizacion.getCurrentPosition(muestraPosicion,muestraError)
+					navigator.geolocation.getCurrentPosition(muestraPosicion,muestraError)
 				}
 			}
 		</script>
