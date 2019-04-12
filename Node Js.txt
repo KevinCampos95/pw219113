@@ -1,0 +1,14 @@
+XAMPP = Apache(Servidor Web)
+
+CRUD = Create, Read, Update, Delete
+ABCC = Altas, Bajas, Cambios, Consultas
+
+JS = Cliente
+Nose.js = Del lado del servidor
+		  Servidor Web
+Paquete = Express.js
+VERBOS HTTP = get(obtener pagina), post(mandar datos), put(actualizar datos), delete(borrar datos)
+Paquetes = JS
+NPM = Administrador de paquetes de node
+
+encamina tus pasos a donde tu progenitora e importunala 
