@@ -8,6 +8,40 @@ const app = new Vue({
 			{nombre: 'Uvas', cantidad: 0},
 			{nombre: 'Peras', cantidad: 80},
 			{nombre: 'Fresas', cantidad: 110}
-		]
+		],
+		nuevaFruta: '',
+		total: 0
+	},
+	methods: {
+		agregarFruta(){
+			//console.log("diste clic")
+			if(this.nuevaFruta == ""){
+				alert("Agrega el nombre de la fruta");
+			}
+			this.frutas.push(this.nuevaFruta);
+			this.frutas2.push({
+				nombre: this.nuevaFruta,
+				cantidad: 0
+			});
+			this.nuevaFruta = '';
+		}
+	},
+	computed: {
+		sumarFrutas(){
+			this.total = 0;
+			for(fruta of this.frutas2){
+				this.total = this.total+fruta.cantidad;
+				// this.total += fruta.cantidad;
+			}
+			return this.total;
+		}
 	}
 });
+
+
+
+
+
+
+
+
